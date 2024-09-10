@@ -12,8 +12,7 @@ import org.testng.annotations.*;
  *
  */
 public class TestBase extends AbstractTestNGCucumberTests {
-	public static WebDriver driver;
-	@BeforeSuite
+	public static WebDriver driver;	@BeforeMethod (alwaysRun=true)
 	@Parameters({ "browser" })
 	public void startDriver(@Optional("chrome") String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
@@ -28,9 +27,9 @@ public class TestBase extends AbstractTestNGCucumberTests {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 	}
-	@AfterClass()
-	protected void tearDown() {
+	@AfterMethod
+	public void tearDown(){
+		driver.close();
 		driver.quit();
-		driver = null;
 	}
 }

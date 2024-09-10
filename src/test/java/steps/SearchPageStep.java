@@ -33,11 +33,13 @@ public class SearchPageStep extends TestBase{
 
     @And("user set New in Condition filter")
     public void userSetNewInConditionFilter() throws InterruptedException {
-        search.applyNewConditionFilter();
+        search.clickConditionTabFilter();
+        search.selectNewConditionFilter();
     }
 
     @And("user set min price filter {string}")
     public void userSetMinPriceFilter(String minprice) throws InterruptedException {
+        search.clickPriceTabFilter();
         search.setMinPriceFilter(minprice);
     }
 
@@ -48,7 +50,8 @@ public class SearchPageStep extends TestBase{
 
     @And("user set Item Location filter in Asia")
     public void userSetItemLocationFilterInAsia() throws InterruptedException {
-        search.applyAsiaLocationFilter();
+        search.clickLocationFilter();
+        search.selectAsiaLocationFilter();
     }
 
     @And("user click on apply button")
@@ -64,5 +67,26 @@ public class SearchPageStep extends TestBase{
     @And("user select the first result")
     public void userSelectTheFirstResult() throws InterruptedException {
         search.selectFirstResult();
+    }
+
+    @When("user type {string} on searchbox")
+    public void userTypeOnSearchbox(String keyword) {
+        search.enterSearchKeyword(keyword);
+    }
+
+    @And("user change the search category as {string}")
+    public void userChangeTheSearchCategoryAs(String category) throws InterruptedException {
+        search.clickOnAllCategoriesDropdown();
+        search.clickCategoryOption(category);
+    }
+
+    @And("user click on search button")
+    public void userClickOnSearchButton() throws InterruptedException {
+        search.clickSearchButton();
+    }
+
+    @And("user see that the name of the first result item contains {string}")
+    public void userSeeThatTheNameOfTheFirstResultItemContains(String title) {
+        Assert.assertTrue(search.getFirstItemTitleText().toLowerCase().contains(title.toLowerCase()), "Product is not match with keyword");
     }
 }

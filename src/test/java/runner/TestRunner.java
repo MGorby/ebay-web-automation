@@ -9,5 +9,5 @@ import tests.TestBase;
         plugin = {"pretty", "html:target/cucumber-html-report" }
 )
 
-public class TestRunnerOne extends TestBase{
+public class TestRunner extends TestBase{
 }
