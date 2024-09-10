@@ -695,8 +695,9 @@ public class SeleniumHelpers {
      * Close current tab browser after open new tab
      *
      * @throws InterruptedException
+     * @param i
      */
-    public void closeTabWindowBrowser() throws InterruptedException {
+    public void closeTabWindowBrowser(int i) throws InterruptedException {
         String currentTab = driver.getWindowHandle();
         driver.close();
 

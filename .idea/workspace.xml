@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca725f1-70c8-453b-98e5-4d143d0fae7a" name="Default Changelist" comment="" />
+    <list default="true" id="bca725f1-70c8-453b-98e5-4d143d0fae7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/ebayAutomation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/DetailPagePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/SearchPagePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DetailPageStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/SearchPageStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/taskOne.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunnerOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunnerOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/bookingSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ownerSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/SeleniumHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/SeleniumHelpers.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1rsZPgguRfdeepL248onhGssJsg" />
   <component name="ProjectViewState">
@@ -37,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/AT/adv test/sdet-gorby-mekari/testng_One.xml">
+  <component name="RunManager" selected="TestNG.D:\AT\adv test\ebay-web-automation/testng_One.xml">
     <configuration name="Feature: booking" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/booking.feature" />
@@ -75,41 +96,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/AT/adv test/sdet-gorby-mekari/testng_One.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:\AT\adv test\ebay-web-automation/testng_One.xml" type="TestNG" temporary="true">
       <module name="POM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_One.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/AT/adv test/sdet-gorby-mekari/testng_signUp.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="POM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_signUp.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/Gorby/TestAutomationFramework-master/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="POM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: booking" />
+      <item itemvalue="Cucumber Java.Scenario: Sign In feature" />
+      <item itemvalue="TestNG.D:\AT\adv test\ebay-web-automation/testng_One.xml" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/AT/adv test/sdet-gorby-mekari/testng_One.xml" />
-        <item itemvalue="TestNG.D:/AT/adv test/sdet-gorby-mekari/testng_signUp.xml" />
-        <item itemvalue="TestNG.D:/Gorby/TestAutomationFramework-master/testng.xml" />
+        <item itemvalue="TestNG.D:\AT\adv test\ebay-web-automation/testng_One.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -126,5 +139,17 @@
       <updated>1619766734323</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

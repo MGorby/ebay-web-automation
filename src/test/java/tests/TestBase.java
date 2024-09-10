@@ -22,7 +22,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
 			option.addArguments("--incognito");
 			driver = new ChromeDriver(option);
 		} else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "/Users/mamikos/Documents/Project-Witha/Witha-Automation-Test-Web/drivers/geckodriver");
+			System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		driver.manage().window().maximize();
