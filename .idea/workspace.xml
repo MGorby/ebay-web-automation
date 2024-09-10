@@ -6,25 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bca725f1-70c8-453b-98e5-4d143d0fae7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ebayAutomation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ebayAutomation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pagesObject/SearchPagePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesObject/SearchPagePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pagesObject/TaskOnePO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunnerOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SearchPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SearchPageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/taskOneSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/DetailPagePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/SearchPagePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/TaskOnePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunnerOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SearchPageStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/taskOneSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/Helper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/SeleniumHelpers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/SeleniumHelpers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_One.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
