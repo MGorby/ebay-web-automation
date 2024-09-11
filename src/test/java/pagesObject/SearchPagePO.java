@@ -68,14 +68,20 @@ public class SearchPagePO {
     @FindBy(css = ".btn--primary")
     private WebElement applyBtn;
 
-    @FindBy(css = ".b-pageheader__text")
-    private WebElement searchResultTitle;
-
-    @FindBy(xpath = "(//a[@class='s-item__link'])[1]")
-    private WebElement firstItemTitle;
-
     @FindBy(xpath = "((//span[@role='heading']))[3]")
     private WebElement firstItemName;
+
+    @FindBy(css = ".brm__item--applied")
+    private WebElement appliedFilterDropdown;
+
+    @FindBy(xpath = "(//span[@class='brm__item-label'])[1]")
+    private WebElement firstFilterApplied;
+
+    @FindBy(xpath = "(//span[@class='brm__item-label'])[2]")
+    private WebElement secondFilterApplied;
+
+    @FindBy(xpath = "(//span[@class='brm__item-label'])[3]")
+    private WebElement thirdFilterApplied;
 
     /**
      * Click on Shop by Category dropdown
@@ -171,24 +177,6 @@ public class SearchPagePO {
     }
 
     /**
-     * Select first option on search result
-     * @throws InterruptedException
-     */
-    public void selectFirstResult() throws InterruptedException {
-        selenium.clickOn(firstItemTitle);
-    }
-
-    /**
-     * Get Search Result Title Text
-     *
-     * @return variable
-     */
-    public String getSearchResultTitleText() {
-        String result = selenium.getText(searchResultTitle);
-        return result;
-    }
-
-    /**
      * Enter search keyword in searchbox
      */
     public void enterSearchKeyword(String keyword){
@@ -227,5 +215,43 @@ public class SearchPagePO {
     public String getFirstItemTitleText() {
         String name = selenium.getText(firstItemName);
         return name.toLowerCase();
+    }
+
+    /**
+     * Click Search button
+     * @throws InterruptedException
+     */
+    public void clickAppliedFilterDropdown() throws InterruptedException {
+        selenium.clickOn(appliedFilterDropdown);
+    }
+
+    /**
+     * Get First Applied Filter Text
+     *
+     * @return variable
+     */
+    public String getFirstFilterAppliedText() {
+        String first = selenium.getText(firstFilterApplied);
+        return first;
+    }
+
+    /**
+     * Get Second Applied Filter Text
+     *
+     * @return variable
+     */
+    public String getSecondFilterAppliedText() {
+        String first = selenium.getText(secondFilterApplied);
+        return first;
+    }
+
+    /**
+     * Get Third Applied Filter Text
+     *
+     * @return variable
+     */
+    public String getThirdFilterAppliedText() {
+        String third = selenium.getText(thirdFilterApplied);
+        return third;
     }
 }

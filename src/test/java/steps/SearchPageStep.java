@@ -59,16 +59,6 @@ public class SearchPageStep extends TestBase{
         search.clickApplyBtn();
     }
 
-    @And("user see search result title is {string}")
-    public void userSeeSearchResultTitleIs(String title) {
-        Assert.assertEquals(search.getSearchResultTitleText(), title, "Search result title is not equals");
-    }
-
-    @And("user select the first result")
-    public void userSelectTheFirstResult() throws InterruptedException {
-        search.selectFirstResult();
-    }
-
     @When("user type {string} on searchbox")
     public void userTypeOnSearchbox(String keyword) {
         search.enterSearchKeyword(keyword);
@@ -88,5 +78,25 @@ public class SearchPageStep extends TestBase{
     @And("user see that the name of the first result item contains {string}")
     public void userSeeThatTheNameOfTheFirstResultItemContains(String title) {
         Assert.assertTrue(search.getFirstItemTitleText().toLowerCase().contains(title.toLowerCase()), "Product is not match with keyword");
+    }
+
+    @And("user click on applied filter")
+    public void userClickOnAppliedFilter() throws InterruptedException {
+        search.clickAppliedFilterDropdown();
+    }
+
+    @Then("user see the condition filter applied is {string}")
+    public void userSeeTheConditionFilterAppliedIs(String condition) {
+        Assert.assertTrue(search.getFirstFilterAppliedText().contains(condition), "Applied Condition filter is not New");
+    }
+
+    @And("user see the price filter applied is {string}")
+    public void userSeeThePriceFilterAppliedIs(String price) {
+        Assert.assertTrue(search.getSecondFilterAppliedText().contains(price), "Applied Price filter is not 3,000,000 - 4,000,000");
+    }
+
+    @And("user see the item location filter applied is {string}")
+    public void userSeeTheItemLocationFilterAppliedIs(String location) {
+        Assert.assertTrue(search.getThirdFilterAppliedText().contains(location), "Applied Item Location filter is not Asia");
     }
 }
