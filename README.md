@@ -1,9 +1,18 @@
 # ebay-web-automation
 
-Steps to run :
+Overview
+This is an automation testing project developed using Selenium, Java, Maven, Cucumber, and TestNG. It is designed to perform end-to-end UI tests on web applications. The project follows the BDD (Behavior-Driven Development) approach, utilizing Cucumber for writing human-readable test scenarios in Gherkin format.
 
-1. Make ure Chrome Version 128.0.6613.120 already installed
-2. Open the project using Intellij
-3. wait until dependency finish to load
-4. right click on testng file
-5. click on Run
+Tech Stack
+- Java: Main programming language used for writing the test scripts.
+- Selenium WebDriver: Used for browser automation.
+- Maven: Build and dependency management tool.
+- Cucumber: Used for BDD and writing test cases in Gherkin.
+- TestNG: For managing test execution and generating test reports.
+
+Steps to run :
+1. Install Chrome Version 128.0.6613.120
+2. Open the project using IntelliJ IDEA
+3. Wait until dependency finish to load
+4. Right click on testng.xml file
+5. Click on Run
