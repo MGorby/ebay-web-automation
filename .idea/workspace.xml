@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca725f1-70c8-453b-98e5-4d143d0fae7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ebayAutomation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ebayAutomation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pagesObject/SearchPagePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesObject/SearchPagePO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/DetailPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DetailPageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SearchPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SearchPageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/SearchPagePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pagesObject/SearchPagePO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/TaskOnePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SearchPageStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/SearchPageStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/taskOneSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
