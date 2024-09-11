@@ -3,7 +3,6 @@ package steps;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
 import pagesObject.DetailPagePO;
-import pagesObject.SearchPagePO;
 import tests.TestBase;
 import utility.SeleniumHelpers;
 
